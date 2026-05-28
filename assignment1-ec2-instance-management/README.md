@@ -48,6 +48,12 @@ Lambda code was placed in the code section, deployed and test was performed.
 
 ![Lambda Function Configuration](screenshots/test-execution-success-log.png)
 
+### 6. EC2 Dashboard
+
+Below screenshot confirms that the EC2 is indeed powering off and on as per tagged information.  Lambda function is working as expected.
+
+![EC2 Dashboard](screenshots/ec2-dashboard-confirmation.png)
+
 
 
 
