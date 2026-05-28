@@ -20,12 +20,14 @@ Objects older than **30 days** are deleted, while newer files remain untouched.
 
 ### 1. S3 Bucket Setup
 - Created a new bucket: `lambda-s3-cleanup-demo`.
-- Uploaded multiple files (PDFs, text files).
-- Verified that all files show **Last modified** timestamps at upload time.
 
 #### Creating bucket
 ![S3 Bucket creation](screenshots/s3-new-bucket-creation-process.png)
-![S3 Bucket creation](screenshots/s3-new-bucket-created.png)
+
+### Data uploaded to bucket
+- Uploaded multiple files (PDFs, text files).
+- Verified that all files show **Last modified** timestamps at upload time.
+![S3 Bucket Data Uploaded](screenshots/s3-lambda-bucket-contents.png)
 
 ### 2. IAM Role Setup
 - Created IAM role named **Lambda-S3-Cleanup**.
